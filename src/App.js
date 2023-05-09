@@ -1,7 +1,9 @@
+import InfiniteScroll from './components/infiniteScroll'
+
 function App() {
   return (
     <>
-    hello world
+    <InfiniteScroll/>
     </>
   );
 }
