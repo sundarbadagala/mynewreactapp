@@ -1,0 +1,11 @@
+.title {
+    border: 1px solid #ffffff;
+    padding: 10px 4px;
+    background-color: #e8edea;
+    cursor: pointer;
+}
+.content {
+    border: 1px solid #ffffff;
+    padding: 10px 4px;
+    background-color: #f7f7f7;
+}
