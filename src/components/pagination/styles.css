@@ -1,0 +1,9 @@
+.pg_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.pg_button {
+    flex-grow: 1;
+}
