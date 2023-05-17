@@ -2,7 +2,8 @@
 // import Accordion from './components/accordion'
 // import Pagination from './components/pagination';
 // import Debounce from './components/debounce'
-import Throttling from "./components/throttling";
+// import Throttling from "./components/throttling";
+import CustomizeSvg from './components/customizeSvg'
 
 // import {data} from './data/accordion-data'
 
@@ -13,7 +14,8 @@ function App() {
       {/* <Accordion data={data}/> */}
       {/* <Pagination/> */}
       {/* <Debounce/> */}
-      <Throttling/>
+      {/* <Throttling/> */}
+      <CustomizeSvg/>
     </>
   );
 }
