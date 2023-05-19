@@ -3,7 +3,9 @@
 // import Pagination from './components/pagination';
 // import Debounce from './components/debounce'
 // import Throttling from "./components/throttling";
-import CustomizeSvg from './components/customizeSvg'
+// import CustomizeSvg from './components/customizeSvg'
+// import Animtion from './components/animation'
+import ExpandAnimation from './components/expandAnimation'
 
 // import {data} from './data/accordion-data'
 
@@ -15,7 +17,9 @@ function App() {
       {/* <Pagination/> */}
       {/* <Debounce/> */}
       {/* <Throttling/> */}
-      <CustomizeSvg/>
+      {/* <CustomizeSvg/> */}
+      {/* <Animtion/> */}
+      <ExpandAnimation/>
     </>
   );
 }
