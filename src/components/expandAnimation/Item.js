@@ -1,7 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useState } from 'react'
 
 function Item({ item }) {
-    const divRef = useRef(null)
     const [isVisible, setIsVisible] = useState(false)
     const handleToggle = () => {
         setIsVisible(prev => !prev)
@@ -12,13 +11,13 @@ function Item({ item }) {
                 {item.header}
                 <button
                     onClick={handleToggle}
+                    className='toggle-btn'
                 >
                     {isVisible ? '-' : '+'}
                 </button>
             </div>
             <div
                 className={isVisible ? 'content-visible' : 'content-hide'}
-                onAnimationEnd={handleToggle}
                 style={{ maxHeight: isVisible ? '500px' : '0px' }}
             >
                 {
