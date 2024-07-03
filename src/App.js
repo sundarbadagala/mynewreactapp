@@ -5,7 +5,8 @@
 // import Throttling from "./components/throttling";
 // import CustomizeSvg from './components/customizeSvg'
 // import Animtion from './components/animation'
-import ExpandAnimation from './components/expandAnimation'
+// import ExpandAnimation from './components/expandAnimation'
+import SystemDesign from "./system-design";
 
 // import {data} from './data/accordion-data'
 
@@ -19,7 +20,8 @@ function App() {
       {/* <Throttling/> */}
       {/* <CustomizeSvg/> */}
       {/* <Animtion/> */}
-      <ExpandAnimation/>
+      {/* <ExpandAnimation/> */}
+      <SystemDesign/>
     </>
   );
 }
